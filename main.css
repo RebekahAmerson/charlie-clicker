@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+}
+
+main {
+  height: 600px;
+}
+
+.charlie {
+  width: 27%;
+}
+
+.speech-bubble {
+	position: absolute;
+  top: 20%;
+  right: 37%;
+	background: #00aabb;
+  color: white;
+  padding: 2%;
+  font-size: 1.25em;
+	border-radius: .4em;
+  box-shadow: 2px 2px 15px black;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 80%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  font-size: 1.5em;
+  padding: .5% 2%;
+}
